@@ -1,0 +1,14 @@
+.nav_list__wrapper {
+}
+.nav_list__wrapper li {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.nav_list__wrapper li a {
+  margin-left: 10px;
+}
+.nav_list__wrapper li svg {
+  width: 25px;
+  height: 25px;
+}

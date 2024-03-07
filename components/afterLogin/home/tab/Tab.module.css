@@ -1,0 +1,30 @@
+.tab_container {
+  padding: 15px 0;
+}
+.tab_title {
+  margin-bottom: 15px;
+}
+.tab_title h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.tab_selectorCont {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 0;
+}
+.tab_selector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tab_isSelected {
+  position: absolute;
+  bottom: 0;
+  background-color: blue;
+  width: 100px;
+  height: 3px;
+  border-radius: 10px;
+}
